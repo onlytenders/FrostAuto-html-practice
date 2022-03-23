@@ -28,7 +28,6 @@
 }
 
 .product-text {
-  font-size: 85%;
   margin-top: 10%;
 }
 
@@ -40,14 +39,9 @@
   margin-top: 10%;
 }
 
-.price {
-  font-size: 120%;
-}
-
 .buy-button {
   background: #2156BD;
   color: #FFFFFF;
-  font-size: 80%;
   line-height: 250%;
   width: 45%;
   display: flex;

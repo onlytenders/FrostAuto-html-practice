@@ -16,7 +16,6 @@ footer {
 
 .footer-wrapper > div > a {
   color: white;
-  font-size: 70%;
   margin-left: 15px;
 }
 
@@ -31,11 +30,9 @@ footer {
 
 .footer-item-info {
   margin-left: 15px;
-  color: #9A9A9A;;
-  font-size: 10px;
+  color: #9A9A9A;
 }
 
 .footer-item-info > a {
   color: white;
-  font-size: 13px;
 }
