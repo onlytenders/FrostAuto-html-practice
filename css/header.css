@@ -95,3 +95,23 @@ header {
   line-height: 22px;
   text-align: right;
 }
+
+@media screen and (min-width: 1500px) {
+  .header-contacts p {
+    font-size: 90%;
+  }
+
+  #header-login, #header-reg {
+    font-size: 80%;
+  }
+
+  #header-search-input {
+    height: 50px;
+    font-size: 100%;
+  }
+
+  #header-search-button {
+    width: 50px;
+    height: 52px;
+  }
+}

@@ -1,0 +1,46 @@
+.page-numbers-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-numbers {
+  display: flex;
+  width: 37%;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #E5E5E5;
+  box-sizing: border-box;
+  color: black;
+}
+
+.next-button {
+  width: auto;
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.next-button-arrow {
+  padding: 0 3%;
+  transform: scale(0.7);
+  height: 60%;
+}
+
+.number-active {
+  background: #2156BD;
+  color: white;
+  border: none;
+}
+
+.three-dots {
+  border: none;
+}
