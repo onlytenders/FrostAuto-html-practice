@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/filters.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,8 +72,44 @@
     </div>
     <div class="content">
       <div class="content-wrapper">
-        <div class="content-filters-wrapper">
-          <!-- TODO:  -->
+        <div class="filters-wrapper">
+          <div class="filters-column">
+            <div class="filters-item">
+              <h5 class="filters-label">Категория: </h5>
+              <select class="filters-dropdown" name="">
+                <option value="all">Все категории</option>
+              </select>
+            </div>
+            <div class="filters-item bottom-row-margin">
+              <h5 class="filters-label">Модель: </h5>
+              <select class="filters-dropdown" name="">
+                <option value="all">Все модели</option>
+              </select>
+            </div>
+          </div>
+          <div class="filters-column">
+            <div class="filters-item">
+              <h5 class="filters-label">Марка: </h5>
+              <select class="filters-dropdown" name="">
+                <option value="all">Все марки</option>
+              </select>
+            </div>
+            <div class="filters-item bottom-row-margin">
+              <h5 class="filters-label">Поколение: </h5>
+              <select class="filters-dropdown" name="">
+                <option value="all">Все поколения</option>
+              </select>
+            </div>
+          </div>
+          <div class="filters-column filters-in-stock">
+            <div class="filters-item">
+              <h5 class="filters-label">⠀</h5>
+              <div class="filters-in-stock-button">
+                <input type="checkbox" name="" value="">
+                <h5 class="filters-label">в наличии</h5>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="content-products-wrapper">
           <!-- TODO:  -->
