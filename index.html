@@ -3,19 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Frost - main page</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/content.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="logo/frost-logo.png" alt="">
-      <div class="">
-
+      <div class="header-wrapper">
+        <img src="logo/frost-logo.png" alt="" id="header-logo">
+        <div class="header-contacts">
+          <div class="header-cities">
+            <p>г. Нур-Султан</p>
+            <p class="margin-top">г. Алматы</p>
+          </div>
+          <div class="header-numbers">
+            <p>+7 777 77 77</p>
+            <p class="margin-top">+7 777 77 77</p>
+          </div>
+        </div>
+        <div class="header-search">
+          <input type="text" name="" value="" placeholder="Поиск по каталогу..." id="header-search-input">
+          <a href="#" id="header-search-button">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg" id="header-search-icon">
+              <circle cx="7" cy="7" r="6" stroke="#989898" stroke-width="2"/>
+              <line x1="11.7071" y1="12.1818" x2="17.7071" y2="18.1818" stroke="#989898" stroke-width="2"/>
+            </svg>
+          </a>
+        </div>
+        <div class="header-personal">
+          <a href="#" id="header-login">Войти в личный кабинет</a>
+          <a href="#" id="header-reg">Зарегистрироваться</a>
+        </div>
+        <a href="#">
+          <div class="cart">
+            <svg width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 3L5.5 5C5.5 5 7 5.5 7 6.2247C7 6.92711 7 9.11693 7 10.5M32.5 34C25.6667 34 11.7 34 10.5 34C9 34 7 33.5 7 31C7 30.3492 7 28.2689 7 25.5M7 10.5L34.5 14.5C34.5 14.5 36 14.7788 36 16C36 19.0194 36 23.3942 36 24.5C36 26 35 27 32.5 27C30 27 11 27 9.5 27C8.3 27 7.33333 26 7 25.5M7 10.5C7 15.3276 7 21.2319 7 25.5" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="12" cy="37.5" r="3.5" stroke="#CDCDCD" stroke-width="2"/>
+              <circle cx="32" cy="37.5" r="3.5" stroke="#CDCDCD" stroke-width="2"/>
+              <circle cx="36" cy="10" r="10" fill="#2156BD"/>
+              <path d="M39.5479 15H32.5615V13.5303L35.0703 10.9941C35.8132 10.2331 36.2985 9.70671 36.5264 9.41504C36.7542 9.11882 36.9183 8.84538 37.0186 8.59473C37.1188 8.34408 37.1689 8.08431 37.1689 7.81543C37.1689 7.41439 37.0573 7.11589 36.834 6.91992C36.6152 6.72396 36.3213 6.62598 35.9521 6.62598C35.5648 6.62598 35.1888 6.71484 34.8242 6.89258C34.4596 7.07031 34.0791 7.32324 33.6826 7.65137L32.5342 6.29102C33.0264 5.87174 33.4342 5.57552 33.7578 5.40234C34.0814 5.22917 34.4346 5.09701 34.8174 5.00586C35.2002 4.91016 35.6286 4.8623 36.1025 4.8623C36.7269 4.8623 37.2783 4.97624 37.7568 5.2041C38.2354 5.43197 38.6068 5.75098 38.8711 6.16113C39.1354 6.57129 39.2676 7.04069 39.2676 7.56934C39.2676 8.02962 39.1855 8.46257 39.0215 8.86816C38.862 9.26921 38.6113 9.68164 38.2695 10.1055C37.9323 10.5293 37.3353 11.1331 36.4785 11.917L35.1934 13.127V13.2227H39.5479V15Z" fill="white"/>
+            </svg>
+          </div>
+        </a>
       </div>
     </header>
+    <div class="slider">
+      <div class="slider-banner-content">
+        <div class="slider-banner-col1">
+          <div class="slider-banner-text">
+            <h1 class="slider-banner-label">Компрессоры для</h1>
+            <h3 class="slider-banner-item">— легковых автомобилей</h3>
+            <h3 class="slider-banner-item">— грузовых автомобилей</h3>
+            <h3 class="slider-banner-item">— спецтехники</h3>
+            <h3 class="slider-banner-item">— комбайнов</h3>
+          </div>
+        </div>
+        <div class="slider-banner-col2">
+          <img src="banner/Compressor_3.png" alt="" id="slider-banner-img">
+        </div>
+      </div>
+      <img src="banner/Ellipse.png" alt="" id="slider-ellipse">
+    </div>
     <div class="content">
-
+      <div class="content-wrapper">
+        <div class="content-filters-wrapper">
+          <!-- TODO:  -->
+        </div>
+        <div class="content-products-wrapper">
+          <!-- TODO:  -->
+        </div>
+      </div>
     </div>
     <footer>
-
+      <div class="footer-wrapper">
+        <!-- TODO:  -->
+      </div>
     </footer>
   </body>
 </html>

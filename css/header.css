@@ -1,0 +1,97 @@
+header {
+  background-color: #1E1E1E;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  width: 70%;
+  padding: 1% 0;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+#header-logo {
+  width: 7%;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.header-contacts p {
+  font-size: 75%;
+}
+
+.header-cities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+.header-search {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-left: 5%;
+}
+
+#header-search-input {
+  background-color: #474747;
+  width: 80%;
+  height: 25px;
+  color: #989898;
+  padding-left: 3%;
+  border: 1px solid #6A6A6A;
+  outline: none;
+  appearance: none;
+}
+
+#header-search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  width: 27px;
+  border: 1px solid #6A6A6A;
+  border-left: none;
+  background: #474747;
+  box-sizing: border-box;
+}
+
+#header-search-icon {
+
+}
+
+.header-personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+
+#header-login, #header-reg {
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70%;
+  line-height: 22px;
+  text-align: right;
+}
